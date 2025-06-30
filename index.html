@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>한국문학 취향 테스트</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>한국문학 취향 테스트</h1>
+
+    <div id="age-selection">
+      <h2>연령대를 선택해주세요</h2>
+      <button class="age-btn" onclick="startQuiz('teen')">10대</button>
+      <button class="age-btn" onclick="startQuiz('twenties')">20대</button>
+      <button class="age-btn" onclick="startQuiz('thirties')">30대 이상</button>
+    </div>
+
+    <div id="quiz" style="display: none;">
+      <h2>질문을 선택해주세요!</h2>
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="nextBtn" onclick="nextQuestion()">다음</button>
+    </div>
+
+    <div id="result" style="display: none;">
+      <h2>결과</h2>
+      <p id="result-description"></p>
+      <h3>추천 작품</h3>
+      <div id="recommended-books"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

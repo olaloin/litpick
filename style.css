@@ -1,0 +1,27 @@
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #fdfdfd;
+  padding: 40px;
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button.age-btn {
+  margin: 5px;
+}
+#question, #options {
+  margin-top: 20px;
+}
+#recommended-books img {
+  max-width: 120px;
+  margin: 10px;
+}
