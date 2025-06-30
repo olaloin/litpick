@@ -1,27 +1,69 @@
 
 body {
-  font-family: 'Noto Sans KR', sans-serif;
-  background-color: #fdfdfd;
-  padding: 40px;
+  font-family: 'Nanum Myeongjo', serif;
+  background-color: #fefbf7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   text-align: center;
 }
-.container {
-  max-width: 600px;
-  margin: auto;
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 0.5em;
 }
+
+.subtitle {
+  font-size: 18px;
+  color: #888;
+  margin-bottom: 1.5em;
+}
+
 button {
-  margin-top: 20px;
+  background-color: #b9a48d;
+  color: white;
   padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
 }
-button.age-btn {
-  margin: 5px;
+
+button:hover {
+  background-color: #a8927a;
 }
-#question, #options {
+
+#recommended-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 20px;
 }
-#recommended-books img {
-  max-width: 120px;
+
+#recommended-books div {
   margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  background: #f9f5f1;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 160px;
+}
+
+#recommended-books img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#recommended-books h4 {
+  margin: 10px 0 5px 0;
 }
